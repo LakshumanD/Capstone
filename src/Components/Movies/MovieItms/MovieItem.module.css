@@ -1,0 +1,32 @@
+.imagesection {
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.movies {
+  display: flex;
+  /* position: absolute; */
+  width: 60%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.image {
+  width: 100%;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  opacity: 1;
+}
+.image :hover {
+  cursor: pointer;
+}
+
+.ImageButton {
+  position: absolute;
+  background-color: transparent;
+  border-color: #ff4444;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.ImageButton :hover {
+  background-color: #ff4444;
+}

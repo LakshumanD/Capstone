@@ -1,0 +1,16 @@
+.search {
+  min-width: 12rem;
+  float: right;
+}
+.searchButton {
+  border: 1px solid black;
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  padding: 0.43rem;
+  float: left;
+  background-color: black;
+  margin-right: auto;
+}
+.searchButton :hover {
+  cursor: pointer;
+}

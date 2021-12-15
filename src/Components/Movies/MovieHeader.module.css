@@ -1,0 +1,41 @@
+.h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+
+.h1 span {
+  content: "";
+  border: 2px solid #ff4444;
+  width: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 5rem auto;
+  z-index: 1;
+}
+.span_right {
+  content: "";
+  border: 1px solid #c7c4c4;
+  width: 60px;
+  position: absolute;
+  left: 1;
+  z-index: 1;
+  margin-left: 6rem;
+  margin-top: 5.04rem;
+}
+.span_left {
+  content: "";
+  border: 1px solid #c7c4c4;
+  width: 60px;
+  position: absolute;
+  right: 1;
+  z-index: 1;
+  margin-right: 6rem;
+  margin-top: 5.04rem;
+}

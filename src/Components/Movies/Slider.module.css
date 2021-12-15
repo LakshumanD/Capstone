@@ -1,0 +1,9 @@
+.slider {
+  min-height: 28rem;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  background-image: url("../../images/bg.jpg");
+  background-repeat: repeat-x;
+  box-shadow: grey 0.5rem 0.5rem 0.5rem;
+}
