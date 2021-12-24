@@ -1,6 +1,7 @@
 import classes from "./MovieItemData.module.css";
 import ReactStars from "react-rating-stars-component";
-import { IoCart } from "react-icons/io5";
+import { IoTicket } from "react-icons/io5";
+import { Link } from "react-router-dom";
 const MovieItemData = (props) => {
   return (
     <div className={classes.moviedetails}>
@@ -17,7 +18,9 @@ const MovieItemData = (props) => {
       </div>
       <div className={classes.button}>
         <span className={classes.actions}>
-          <IoCart size={30} color="#ff4444" />
+          <Link to="ViewData">
+            <IoTicket size={30} color="#ff4444" title="Book Tickets" />
+          </Link>
         </span>
       </div>
     </div>

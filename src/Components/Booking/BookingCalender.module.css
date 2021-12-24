@@ -1,0 +1,33 @@
+.day {
+  padding: 1%;
+  background-color: white;
+  margin: 0.5rem;
+  width: 4%;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+.active {
+  padding: 1%;
+  background-color: #ff4444;
+  border: 1px solid #ff4444;
+  color: white;
+  margin: 0.5rem;
+  width: 4%;
+
+  border-radius: 0.25rem;
+  text-align: center;
+}
+.day:hover {
+  background-color: #ff4444;
+  border: 1px solid #ff4444;
+  color: white;
+}
+.toppage {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
