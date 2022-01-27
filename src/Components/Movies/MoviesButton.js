@@ -1,38 +1,28 @@
 import "../Movies/MoviesButton.css";
-
-const MoviesButton = () => {
+// import Button from "../UI/Button";
+const MoviesButton = (props) => {
+  const handleClick = (event) => {
+    props.handleClick(event.target.value);
+  };
   return (
     <div className="prs_upcome_tabs_wrapper">
       <ul className="nav nav-tabs" role="tablist">
-        <li role="presentation" className="active">
-          <a
-            aria-controls="best"
-            role="tab"
-            data-toggle="tab"
-            aria-expanded="true"
-          >
+        <li
+          role="presentation"
+          className={props.type === "Upcoming" ? "active" : ""}
+        >
+          <button onClick={handleClick} value="Upcoming">
             Upcoming Movies
-          </a>
+          </button>
         </li>
-        <li role="presentation">
-          <a
-            aria-controls="hot"
-            role="tab"
-            data-toggle="tab"
-            aria-expanded="false"
-          >
-            Relesed Movies
-          </a>
-        </li>
-        <li role="presentation">
-          <a
-            aria-controls="trand"
-            role="tab"
-            data-toggle="tab"
-            aria-expanded="false"
-          >
-            Best of library
-          </a>
+
+        <li
+          role="presentation"
+          className={props.type === "Released" ? "active" : ""}
+        >
+          <button onClick={handleClick} value="Released">
+            Released Movies
+          </button>
         </li>
       </ul>
     </div>

@@ -1,14 +1,20 @@
 .button {
   border-radius: 0.5rem;
 
-  background-color: black;
+  background-color: #9c27b0;
   color: white;
-  border: 1px solid black;
+  border: 1px solid #9c27b0;
   padding: 1rem;
   min-width: 7rem;
 }
 .button:hover {
-  background-color: #ff4444;
+  background-color: #1976d1;
   border: 1px solid white;
   font-weight: bold;
+}
+
+.button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  border: 1px solid white;
 }

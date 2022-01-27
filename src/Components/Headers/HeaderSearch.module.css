@@ -1,7 +1,23 @@
 .search {
-  min-width: 12rem;
-  float: right;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
 }
+
+.search a {
+  text-decoration: none;
+  padding: 0.5rem;
+  background-color: #1976d1;
+  color: white;
+  border-radius: 0.5rem;
+  margin-right: 2px;
+}
+.search a:hover {
+  background-color: #9c27b0;
+  border: 1px solid white;
+}
+
 .searchButton {
   border: 1px solid black;
   border-top-right-radius: 0.7rem;

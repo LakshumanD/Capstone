@@ -9,8 +9,8 @@
 }
 .active {
   padding: 1%;
-  background-color: #ff4444;
-  border: 1px solid #ff4444;
+  background-color: #1976d0;
+  border: 1px solid #1976d0;
   color: white;
   margin: 0.5rem;
   width: 4%;
@@ -19,8 +19,8 @@
   text-align: center;
 }
 .day:hover {
-  background-color: #ff4444;
-  border: 1px solid #ff4444;
+  background-color: #1976d0;
+  border: 1px solid #1976d0;
   color: white;
 }
 .toppage {

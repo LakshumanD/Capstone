@@ -1,7 +1,5 @@
 import classes from "./Header.module.css";
 import { Fragment } from "react";
-import HeaderSignup from "./HeaderSignup";
-
 import HeaderSearch from "./HeaderSearch";
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -13,7 +11,6 @@ const Header = () => {
         </h1>
 
         <HeaderSearch className={classes.search} />
-        <HeaderSignup />
       </header>
     </Fragment>
   );

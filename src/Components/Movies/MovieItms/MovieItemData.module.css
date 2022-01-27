@@ -32,3 +32,6 @@
 .button :hover {
   background-color: #fcaaaa;
 }
+.cur {
+  pointer-events: none;
+}

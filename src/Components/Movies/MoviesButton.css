@@ -26,17 +26,17 @@
   -moz-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.prs_upcome_tabs_wrapper .nav-tabs > li:first-child.active > a {
+.prs_upcome_tabs_wrapper .nav-tabs > li:first-child.active > Button {
   -webkit-border-top-left-radius: 5px;
   -moz-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  background: #ff4444;
+  background: #1976d0;
   color: white;
 }
-.prs_upcome_tabs_wrapper .nav-tabs > li:last-child.active > a {
+.prs_upcome_tabs_wrapper .nav-tabs > li:last-child.active > Button {
   -webkit-border-top-right-radius: 5px;
   -moz-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
@@ -44,7 +44,7 @@
   -moz-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.prs_upcome_tabs_wrapper .nav-tabs > li > a {
+.prs_upcome_tabs_wrapper .nav-tabs > li > Button {
   border: 0;
   text-decoration: none;
 }
@@ -70,7 +70,7 @@
   right: -1px;
   z-index: 1;
 }
-.prs_upcome_tabs_wrapper .nav > li > a {
+.prs_upcome_tabs_wrapper .nav > li > Button {
   padding: 13px 35px;
   border-radius: 0;
   border: 0;
@@ -81,9 +81,9 @@
   transition: all 0.5s;
   margin-right: 0;
 }
-.prs_upcome_tabs_wrapper .nav > li > a:hover,
-.prs_upcome_tabs_wrapper .nav > li > a:focus {
-  background: #ff4444;
+.prs_upcome_tabs_wrapper .nav > li > Button:hover,
+.prs_upcome_tabs_wrapper .nav > li > Button:focus {
+  background: #1976d0;
   color: #ffffff;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -131,7 +131,7 @@
 .prs_upcom_movie_img_btn_wrapper li {
   float: none;
 }
-.prs_upcom_movie_img_btn_wrapper li:first-child a {
+.prs_upcom_movie_img_btn_wrapper li:first-child Button {
   display: inline-block;
   width: 150px;
   height: 50px;
@@ -150,7 +150,7 @@
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-.prs_upcom_movie_img_btn_wrapper li:first-child a:hover {
+.prs_upcom_movie_img_btn_wrapper li:first-child Button:hover {
   background: transparent;
   border: 1px solid #ff4444;
   -webkit-transition: all 0.5s;
@@ -159,14 +159,14 @@
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-.prs_upcom_movie_img_btn_wrapper li:last-child a {
+.prs_upcom_movie_img_btn_wrapper li:last-child Button {
   display: inline-block;
   width: 150px;
   height: 50px;
   text-align: center;
   line-height: 50px;
   border: 1px solid #ff4444;
-  margin-right: -900px;
+  /* margin-right: -900px; */
   background: transparent;
   color: #ffffff;
   margin-top: 10px;
